@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container py-4">
+<div class="container py-4" style="margin-bottom: 5rem;">
     <h2 class="mb-3 fw-semibold">Absensi Hari Ini</h2>
 
 

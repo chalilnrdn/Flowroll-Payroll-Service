@@ -31,6 +31,10 @@
         .text-second{
         color: #FA723D;
         }
+
+        .bg-orange{
+        background-color: #FA723D !important;
+        }
     </style>
 </head>
 <body>

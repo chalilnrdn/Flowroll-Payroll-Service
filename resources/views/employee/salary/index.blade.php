@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div class="container mt-4">
+<div class="container mt-4" style="margin-bottom: 5rem;">
     <h3 class="mb-4 fw-semibold">Slip Gaji Bulan {{ \Carbon\Carbon::createFromDate($year, $month, 1)->translatedFormat('F Y') }}
 </h3>
 

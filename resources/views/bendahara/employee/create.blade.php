@@ -2,13 +2,13 @@
 
 @section('content')
 
-<div class="container mt-4">
+<div class="container mt-4" style="margin-bottom: 5rem;">
     <div class="row justify-content-center">
         <div class="col-md-8">
 
 
             <div class="card shadow-sm border-0">
-                <div class="card-header bg-primary text-white">
+                <div class="card-header bg-orange text-white">
                     <h5 class="mb-0">Tambah Data Karyawan</h5>
                 </div>
 
@@ -64,7 +64,7 @@
 
                         {{-- button --}}
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="btn btn-secondary">Kembali</a>
+                            <a href="{{ route('manage.employee.index') }}" class="btn btn-secondary">Kembali</a>
                             <button type="submit" class="btn btn-success">Simpan</button>
                         </div>
 
